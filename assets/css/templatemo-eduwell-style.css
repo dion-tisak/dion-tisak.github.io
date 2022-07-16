@@ -1909,7 +1909,7 @@ body {
     font-size: 22px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .main-banner .header-text h2 {
     font-size: 35px;
     line-height: 45px;
