@@ -720,6 +720,7 @@ section.main-banner {
 }
 
 .main-banner .header-text h2 {
+  display: inline-block;
   position: relative;
   z-index: 2;
   margin-top: 20px;
@@ -731,6 +732,7 @@ section.main-banner {
 }
 
 .main-banner .header-text h2 em {
+  display: inline-block;
   font-style: normal;
   color: #ff0000;
 }
@@ -1751,7 +1753,7 @@ body {
     margin-left: 60px;
   }
   .main-banner .header-text h2 {
-    font-size: 62px;
+    font-size: 50px;
   }
   .header-area {
     background: rgb(255, 0, 0) !important;
@@ -1905,5 +1907,11 @@ body {
   }
   section.more-info .count-area-content .count-title {
     font-size: 22px;
+  }
+}
+@media (max-width: 400px) {
+  .main-banner .header-text h2 {
+    font-size: 35px;
+    line-height: 45px;
   }
 }
